@@ -1,9 +1,12 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main(){
 
-cout << "Hellow world!" << endl;
+string name = "ryan";
+
+cout << "Hello " << name << endl;
 
 return 0;
 }
